@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C2029FC81C7567E600BA91AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C2029FC71C7567E600BA91AA /* main.m */; };
+		C2029FCB1C7567E600BA91AA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C2029FCA1C7567E600BA91AA /* AppDelegate.m */; };
+		C2029FCE1C7567E600BA91AA /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2029FCD1C7567E600BA91AA /* FirstViewController.m */; };
+		C2029FD11C7567E600BA91AA /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2029FD01C7567E600BA91AA /* SecondViewController.m */; };
+		C2029FD41C7567E600BA91AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2029FD21C7567E600BA91AA /* Main.storyboard */; };
+		C2029FD61C7567E600BA91AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2029FD51C7567E600BA91AA /* Assets.xcassets */; };
+		C2029FD91C7567E600BA91AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2029FD71C7567E600BA91AA /* LaunchScreen.storyboard */; };
+		C2029FE41C7567E600BA91AA /* BaishiTVTabBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2029FE31C7567E600BA91AA /* BaishiTVTabBarTests.m */; };
+		C2029FEF1C7567E600BA91AA /* BaishiTVTabBarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2029FEE1C7567E600BA91AA /* BaishiTVTabBarUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C2029FE01C7567E600BA91AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2029FBB1C7567E600BA91AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2029FC21C7567E600BA91AA;
+			remoteInfo = BaishiTVTabBar;
+		};
+		C2029FEB1C7567E600BA91AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2029FBB1C7567E600BA91AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2029FC21C7567E600BA91AA;
+			remoteInfo = BaishiTVTabBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C2029FC31C7567E600BA91AA /* BaishiTVTabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaishiTVTabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2029FC71C7567E600BA91AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C2029FC91C7567E600BA91AA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C2029FCA1C7567E600BA91AA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C2029FCC1C7567E600BA91AA /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		C2029FCD1C7567E600BA91AA /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		C2029FCF1C7567E600BA91AA /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		C2029FD01C7567E600BA91AA /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		C2029FD31C7567E600BA91AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C2029FD51C7567E600BA91AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C2029FD81C7567E600BA91AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C2029FDA1C7567E600BA91AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2029FDF1C7567E600BA91AA /* BaishiTVTabBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaishiTVTabBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2029FE31C7567E600BA91AA /* BaishiTVTabBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaishiTVTabBarTests.m; sourceTree = "<group>"; };
+		C2029FE51C7567E600BA91AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2029FEA1C7567E600BA91AA /* BaishiTVTabBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaishiTVTabBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2029FEE1C7567E600BA91AA /* BaishiTVTabBarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaishiTVTabBarUITests.m; sourceTree = "<group>"; };
+		C2029FF01C7567E600BA91AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2029FC01C7567E600BA91AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2029FDC1C7567E600BA91AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2029FE71C7567E600BA91AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C2029FBA1C7567E600BA91AA = {
+			isa = PBXGroup;
+			children = (
+				C2029FC51C7567E600BA91AA /* BaishiTVTabBar */,
+				C2029FE21C7567E600BA91AA /* BaishiTVTabBarTests */,
+				C2029FED1C7567E600BA91AA /* BaishiTVTabBarUITests */,
+				C2029FC41C7567E600BA91AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C2029FC41C7567E600BA91AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2029FC31C7567E600BA91AA /* BaishiTVTabBar.app */,
+				C2029FDF1C7567E600BA91AA /* BaishiTVTabBarTests.xctest */,
+				C2029FEA1C7567E600BA91AA /* BaishiTVTabBarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2029FC51C7567E600BA91AA /* BaishiTVTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				C2029FC91C7567E600BA91AA /* AppDelegate.h */,
+				C2029FCA1C7567E600BA91AA /* AppDelegate.m */,
+				C2029FCC1C7567E600BA91AA /* FirstViewController.h */,
+				C2029FCD1C7567E600BA91AA /* FirstViewController.m */,
+				C2029FCF1C7567E600BA91AA /* SecondViewController.h */,
+				C2029FD01C7567E600BA91AA /* SecondViewController.m */,
+				C2029FD21C7567E600BA91AA /* Main.storyboard */,
+				C2029FD51C7567E600BA91AA /* Assets.xcassets */,
+				C2029FD71C7567E600BA91AA /* LaunchScreen.storyboard */,
+				C2029FDA1C7567E600BA91AA /* Info.plist */,
+				C2029FC61C7567E600BA91AA /* Supporting Files */,
+			);
+			path = BaishiTVTabBar;
+			sourceTree = "<group>";
+		};
+		C2029FC61C7567E600BA91AA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2029FC71C7567E600BA91AA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C2029FE21C7567E600BA91AA /* BaishiTVTabBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				C2029FE31C7567E600BA91AA /* BaishiTVTabBarTests.m */,
+				C2029FE51C7567E600BA91AA /* Info.plist */,
+			);
+			path = BaishiTVTabBarTests;
+			sourceTree = "<group>";
+		};
+		C2029FED1C7567E600BA91AA /* BaishiTVTabBarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C2029FEE1C7567E600BA91AA /* BaishiTVTabBarUITests.m */,
+				C2029FF01C7567E600BA91AA /* Info.plist */,
+			);
+			path = BaishiTVTabBarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2029FC21C7567E600BA91AA /* BaishiTVTabBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2029FF31C7567E600BA91AA /* Build configuration list for PBXNativeTarget "BaishiTVTabBar" */;
+			buildPhases = (
+				C2029FBF1C7567E600BA91AA /* Sources */,
+				C2029FC01C7567E600BA91AA /* Frameworks */,
+				C2029FC11C7567E600BA91AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BaishiTVTabBar;
+			productName = BaishiTVTabBar;
+			productReference = C2029FC31C7567E600BA91AA /* BaishiTVTabBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C2029FDE1C7567E600BA91AA /* BaishiTVTabBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2029FF61C7567E600BA91AA /* Build configuration list for PBXNativeTarget "BaishiTVTabBarTests" */;
+			buildPhases = (
+				C2029FDB1C7567E600BA91AA /* Sources */,
+				C2029FDC1C7567E600BA91AA /* Frameworks */,
+				C2029FDD1C7567E600BA91AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2029FE11C7567E600BA91AA /* PBXTargetDependency */,
+			);
+			name = BaishiTVTabBarTests;
+			productName = BaishiTVTabBarTests;
+			productReference = C2029FDF1C7567E600BA91AA /* BaishiTVTabBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C2029FE91C7567E600BA91AA /* BaishiTVTabBarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2029FF91C7567E600BA91AA /* Build configuration list for PBXNativeTarget "BaishiTVTabBarUITests" */;
+			buildPhases = (
+				C2029FE61C7567E600BA91AA /* Sources */,
+				C2029FE71C7567E600BA91AA /* Frameworks */,
+				C2029FE81C7567E600BA91AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2029FEC1C7567E600BA91AA /* PBXTargetDependency */,
+			);
+			name = BaishiTVTabBarUITests;
+			productName = BaishiTVTabBarUITests;
+			productReference = C2029FEA1C7567E600BA91AA /* BaishiTVTabBarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2029FBB1C7567E600BA91AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "李赛";
+				TargetAttributes = {
+					C2029FC21C7567E600BA91AA = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					C2029FDE1C7567E600BA91AA = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = C2029FC21C7567E600BA91AA;
+					};
+					C2029FE91C7567E600BA91AA = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = C2029FC21C7567E600BA91AA;
+					};
+				};
+			};
+			buildConfigurationList = C2029FBE1C7567E600BA91AA /* Build configuration list for PBXProject "BaishiTVTabBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C2029FBA1C7567E600BA91AA;
+			productRefGroup = C2029FC41C7567E600BA91AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2029FC21C7567E600BA91AA /* BaishiTVTabBar */,
+				C2029FDE1C7567E600BA91AA /* BaishiTVTabBarTests */,
+				C2029FE91C7567E600BA91AA /* BaishiTVTabBarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2029FC11C7567E600BA91AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2029FD91C7567E600BA91AA /* LaunchScreen.storyboard in Resources */,
+				C2029FD61C7567E600BA91AA /* Assets.xcassets in Resources */,
+				C2029FD41C7567E600BA91AA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2029FDD1C7567E600BA91AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2029FE81C7567E600BA91AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2029FBF1C7567E600BA91AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2029FD11C7567E600BA91AA /* SecondViewController.m in Sources */,
+				C2029FCB1C7567E600BA91AA /* AppDelegate.m in Sources */,
+				C2029FCE1C7567E600BA91AA /* FirstViewController.m in Sources */,
+				C2029FC81C7567E600BA91AA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2029FDB1C7567E600BA91AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2029FE41C7567E600BA91AA /* BaishiTVTabBarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2029FE61C7567E600BA91AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2029FEF1C7567E600BA91AA /* BaishiTVTabBarUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C2029FE11C7567E600BA91AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2029FC21C7567E600BA91AA /* BaishiTVTabBar */;
+			targetProxy = C2029FE01C7567E600BA91AA /* PBXContainerItemProxy */;
+		};
+		C2029FEC1C7567E600BA91AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2029FC21C7567E600BA91AA /* BaishiTVTabBar */;
+			targetProxy = C2029FEB1C7567E600BA91AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C2029FD21C7567E600BA91AA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2029FD31C7567E600BA91AA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C2029FD71C7567E600BA91AA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2029FD81C7567E600BA91AA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C2029FF11C7567E600BA91AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		C2029FF21C7567E600BA91AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2029FF41C7567E600BA91AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BaishiTVTabBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sumavision.BaishiTVTabBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C2029FF51C7567E600BA91AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BaishiTVTabBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sumavision.BaishiTVTabBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C2029FF71C7567E600BA91AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BaishiTVTabBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sumavision.BaishiTVTabBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BaishiTVTabBar.app/BaishiTVTabBar";
+			};
+			name = Debug;
+		};
+		C2029FF81C7567E600BA91AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BaishiTVTabBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sumavision.BaishiTVTabBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BaishiTVTabBar.app/BaishiTVTabBar";
+			};
+			name = Release;
+		};
+		C2029FFA1C7567E600BA91AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BaishiTVTabBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sumavision.BaishiTVTabBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BaishiTVTabBar;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C2029FFB1C7567E600BA91AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BaishiTVTabBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sumavision.BaishiTVTabBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BaishiTVTabBar;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2029FBE1C7567E600BA91AA /* Build configuration list for PBXProject "BaishiTVTabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2029FF11C7567E600BA91AA /* Debug */,
+				C2029FF21C7567E600BA91AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2029FF31C7567E600BA91AA /* Build configuration list for PBXNativeTarget "BaishiTVTabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2029FF41C7567E600BA91AA /* Debug */,
+				C2029FF51C7567E600BA91AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C2029FF61C7567E600BA91AA /* Build configuration list for PBXNativeTarget "BaishiTVTabBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2029FF71C7567E600BA91AA /* Debug */,
+				C2029FF81C7567E600BA91AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C2029FF91C7567E600BA91AA /* Build configuration list for PBXNativeTarget "BaishiTVTabBarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2029FFA1C7567E600BA91AA /* Debug */,
+				C2029FFB1C7567E600BA91AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C2029FBB1C7567E600BA91AA /* Project object */;
+}
