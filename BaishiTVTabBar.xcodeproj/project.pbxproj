@@ -16,6 +16,8 @@
 		C2029FD91C7567E600BA91AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2029FD71C7567E600BA91AA /* LaunchScreen.storyboard */; };
 		C2029FE41C7567E600BA91AA /* BaishiTVTabBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2029FE31C7567E600BA91AA /* BaishiTVTabBarTests.m */; };
 		C2029FEF1C7567E600BA91AA /* BaishiTVTabBarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2029FEE1C7567E600BA91AA /* BaishiTVTabBarUITests.m */; };
+		C202A0011C75697400BA91AA /* CustumeBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C202A0001C75697400BA91AA /* CustumeBarViewController.m */; };
+		C202A0071C75724600BA91AA /* EaseStartView.m in Sources */ = {isa = PBXBuildFile; fileRef = C202A0061C75724600BA91AA /* EaseStartView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,10 @@
 		C2029FEA1C7567E600BA91AA /* BaishiTVTabBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaishiTVTabBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2029FEE1C7567E600BA91AA /* BaishiTVTabBarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaishiTVTabBarUITests.m; sourceTree = "<group>"; };
 		C2029FF01C7567E600BA91AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2029FFF1C75697400BA91AA /* CustumeBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustumeBarViewController.h; sourceTree = "<group>"; };
+		C202A0001C75697400BA91AA /* CustumeBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustumeBarViewController.m; sourceTree = "<group>"; };
+		C202A0051C75724600BA91AA /* EaseStartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EaseStartView.h; sourceTree = "<group>"; };
+		C202A0061C75724600BA91AA /* EaseStartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EaseStartView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +110,8 @@
 		C2029FC51C7567E600BA91AA /* BaishiTVTabBar */ = {
 			isa = PBXGroup;
 			children = (
+				C202A0051C75724600BA91AA /* EaseStartView.h */,
+				C202A0061C75724600BA91AA /* EaseStartView.m */,
 				C2029FC91C7567E600BA91AA /* AppDelegate.h */,
 				C2029FCA1C7567E600BA91AA /* AppDelegate.m */,
 				C2029FCC1C7567E600BA91AA /* FirstViewController.h */,
@@ -115,6 +123,8 @@
 				C2029FD71C7567E600BA91AA /* LaunchScreen.storyboard */,
 				C2029FDA1C7567E600BA91AA /* Info.plist */,
 				C2029FC61C7567E600BA91AA /* Supporting Files */,
+				C2029FFF1C75697400BA91AA /* CustumeBarViewController.h */,
+				C202A0001C75697400BA91AA /* CustumeBarViewController.m */,
 			);
 			path = BaishiTVTabBar;
 			sourceTree = "<group>";
@@ -276,7 +286,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2029FD11C7567E600BA91AA /* SecondViewController.m in Sources */,
+				C202A0071C75724600BA91AA /* EaseStartView.m in Sources */,
 				C2029FCB1C7567E600BA91AA /* AppDelegate.m in Sources */,
+				C202A0011C75697400BA91AA /* CustumeBarViewController.m in Sources */,
 				C2029FCE1C7567E600BA91AA /* FirstViewController.m in Sources */,
 				C2029FC81C7567E600BA91AA /* main.m in Sources */,
 			);
@@ -504,6 +516,7 @@
 				C2029FF51C7567E600BA91AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C2029FF61C7567E600BA91AA /* Build configuration list for PBXNativeTarget "BaishiTVTabBarTests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +525,7 @@
 				C2029FF81C7567E600BA91AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C2029FF91C7567E600BA91AA /* Build configuration list for PBXNativeTarget "BaishiTVTabBarUITests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +534,7 @@
 				C2029FFB1C7567E600BA91AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

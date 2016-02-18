@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "EaseStartView.h"
 @interface AppDelegate ()
 
 @end
@@ -16,6 +16,10 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    [self.window makeKeyAndVisible];
+    [[EaseStartView startView] startAnimationWithCompletionBlock:^(EaseStartView *easeStartView) {
+        
+    }];
     // Override point for customization after application launch.
     return YES;
 }
